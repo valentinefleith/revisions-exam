@@ -41,6 +41,7 @@ char **ft_fill_strs(char **strs, int wordcount, char *str)
 			while (str[j] && !ft_isspace(str[j]))
 				j++;
 		}
+		j++;
 	}
 	strs[i] = '\0';
 	return strs;
@@ -68,6 +69,7 @@ size_t ft_strlen_custom(char *str)
 	while (*str && !(ft_isspace(*str)))
 	{
 		i++;
+		str++;
 	}
 	return i;
 }
