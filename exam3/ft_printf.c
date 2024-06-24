@@ -56,30 +56,6 @@ int ft_print_nbr_base(long long nb, char *base)
 
 }
 
-//int ft_print_unsigned(unsigned int nb)
-//{
-//	int count = 0;
-//	if (nb < 10)
-//		count += ft_print_char(nb + '0');
-//	else 
-//	{
-//		count += ft_print_unsigned(nb / 10);
-//		count += ft_print_unsigned(nb % 10);
-//	}
-//	return (count);
-//}
-//
-//int ft_print_nb(int nb)
-//{
-//	if (nb < 0)
-//	{
-//		ft_print_char('-');
-//		return (ft_print_unsigned(-nb) + 1);
-//	}
-//	return ft_print_unsigned(nb);
-//}
-//
-
 int ft_print_arg(char format, va_list arguments)
 {
 	if (format == 's')
