@@ -75,3 +75,16 @@ int ft_printf(char *format, ...) {
 	va_end(arguments);
 	return count;
 }
+
+//
+//int main()
+//{
+//	ft_printf("hello : %d hexa is %x\n", 42, 42);
+//	ft_printf("%d%d%d%x\n", 0, 0, 42, 42);
+//	ft_printf("%x", 80000000);
+//	ft_printf("INT MAX:\n");
+//	ft_printf("%d\n%x\n", 2147483647, 2147483647);
+//	ft_printf("INT MIN:\n");
+//	ft_printf("%d--%x\n", -2147483648, -2147483648);
+//	ft_printf("");
+//}
